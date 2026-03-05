@@ -16,8 +16,9 @@ web/.htaccess
 *.log
 
 # Dotenv
-# .env.*
-.env.example
+.env.
+.env.*
+!.env.example
 
 # Composer
 /vendor
